@@ -20,14 +20,21 @@ User will Require this Hardware:
 - python and pip sofware
 - sunpower-pvs-bundle (from ginoledesma)
 
+
   Steps:
 
 1) Install Python3 and pip on windows 10 based machine
+   
    python install (Web Browser):
       Download https://www.python.org/downloads/
    
    pip install (using Powershell):
       python.exe ../Python/python-3.11.3/get-pip.py
+
+   NOTE: When installing python, select the options:
+        * Add python.exe to PATH
+        * Select "Customize Installation" --> select and include 'pip'
+
    
 2) Open Powershell , install ginoledesma sunpower-pvs-exporter
        pip install sunpower_pvs_exporter
@@ -45,12 +52,14 @@ User will Require this Hardware:
 7) Open Powershell , and enter included commands to start the pre-configured monitor software(1)
 8) Open Powershell , and enter included commands to start the pre-configured gui software(2)
     
-9) Connect to gui web ui with web browser. Password is included.
-    
-10) From within gui, navigate to create 'New' Dashboard.
+9) Using the same computer, Connect to gui web ui with web browser. Password is included.
+       * Please note that you can connect to the gui from a remote machine on your LAN if you enter the address:
+         http://<IP Address of machine running sunpower-pvs-exporter>:3000
+   
+11) From within gui, navigate to create 'New' Dashboard.
     Import the dashboards created by ginoledesma:
     https://github.com/ginoledesma/sunpower-pvs-exporter/blob/master/docs/inverter_panel_config.json
     https://github.com/ginoledesma/sunpower-pvs-exporter/blob/master/docs/pvs_supervisor_panel_config.json
     https://github.com/ginoledesma/sunpower-pvs-exporter/blob/master/docs/summary_panel_config.json
 
-11) At this time you should see a graphical viewing of EACH of your Inverters with the gui software.
+12) At this time you should see a graphical viewing of EACH of your Inverters with the gui software.
