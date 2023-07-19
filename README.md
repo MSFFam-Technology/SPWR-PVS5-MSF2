@@ -1,6 +1,6 @@
 # SPWR-PVS5-MSF2
 
-Sunpower PVS5 Home Monitoring
+Sunpower PVS5 Home Monitoring 
 
 all credit goes to : https://github.com/ginoledesma/sunpower-pvs-exporter
 
